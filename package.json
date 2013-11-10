@@ -1,0 +1,12 @@
+{
+  "name": "proxy",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Roman Grudzinski",
+  "dependencies": {
+    "async": "~0.2.9",
+    "rc": "~0.3.1",
+    "lodash": "~2.2.1",
+    "log4js": "~0.6.9"
+  }
+}
