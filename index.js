@@ -10,7 +10,9 @@ var logger = log4js.getLogger('proxy');
 //
 
 function Proxy() {
-	this._logger = log4js.getLogger('Proxy');
+	var logger = log4js.getLogger('Proxy');
+	logger.setLevel('ERROR');
+	this._logger = logger;
 }
 
 var p = Proxy.prototype;
@@ -33,7 +35,9 @@ delete p;
 //
 
 function ProxyConnection(socket) {
-	this._logger = log4js.getLogger('ProxyConnection');
+	var logger = log4js.getLogger('ProxyConnection');
+	logger.setLevel('ERROR');
+	this._logger = logger;
 	this._socket = socket;
 	this._devSocket = null;
 	this._prodSocket = null;
