@@ -109,6 +109,7 @@ p._connectToDev = function() {
 
 p._onDevSocketEnd = function() {
 	this._logger.trace('_onDevSocketEnd');
+	this._devState = 'error';
 }
 
 p._onDevConnect = function() {
