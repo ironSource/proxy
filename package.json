@@ -1,5 +1,5 @@
 {
-  "name": "proxy",
+  "name": "parallel-proxy",
   "version": "0.0.0",
   "main": "index.js",
   "author": "Roman Grudzinski",
@@ -8,5 +8,20 @@
     "rc": "~0.3.1",
     "lodash": "~2.2.1",
     "log4js": "~0.6.9"
-  }
+  },
+  "description": "TCP proxy which allows to split one stream to two streams",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ironSource/proxy.git"
+  },
+  "keywords": [
+    "proxy",
+    "parallel",
+    "proxy"
+  ],
+  "bugs": {
+    "url": "https://github.com/ironSource/proxy/issues"
+  },
+  "homepage": "https://github.com/ironSource/proxy"
 }
