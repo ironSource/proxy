@@ -62,10 +62,14 @@ p.start = function() {
 
 p._onSocketEnd = function() {
 	this._logger.trace('_onSocketEnd');
+	this._devSocket.end();
+	this._prodSocket.end();
 };
 
 p._onSocketError = function() {
 	this._logger.trace('_onSocketError');
+	this._devSocket.destroy();
+	this._prodSocket.destroy();
 };
 
 p._connectToProd = function() {
