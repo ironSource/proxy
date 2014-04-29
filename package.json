@@ -23,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/ironSource/proxy/issues"
   },
-  "homepage": "https://github.com/ironSource/proxy"
+  "homepage": "https://github.com/ironSource/proxy",
+  "bin": "index.js"
 }
