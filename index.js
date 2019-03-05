@@ -207,5 +207,7 @@ var conf = rc('proxy', {
 	}
 });
 
+console.log('conf: ', conf);
+
 var proxy = new Proxy();
 proxy.start();

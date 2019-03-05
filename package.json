@@ -4,10 +4,10 @@
   "main": "index.js",
   "author": "Roman Grudzinski",
   "dependencies": {
-    "async": "~0.2.9",
-    "rc": "~0.3.1",
-    "lodash": "~2.2.1",
-    "log4js": "~0.6.9"
+    "async": "~2.6.2",
+    "rc": "~1.2.8",
+    "lodash": "~4.17.11",
+    "log4js": "~0.6.38"
   },
   "description": "TCP proxy which allows to split one stream to two streams",
   "devDependencies": {},
@@ -17,8 +17,7 @@
   },
   "keywords": [
     "proxy",
-    "parallel",
-    "proxy"
+    "parallel"
   ],
   "bugs": {
     "url": "https://github.com/ironSource/proxy/issues"
